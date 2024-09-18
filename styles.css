@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    background-color: #EDEDED;
+}
+
+
+.contenedor__principal{
+    width:80%;
+    margin: 0% auto;
+}
+
+.cabecera__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px ;  
+    font-family: "Raleway", sans-serif;
+   ;
+}
+.cabecera__nombre{
+    color: #464646
+    
+}
+.cabecera__menu__item{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+
+li, a{
+    white-space: nowrap;
+    list-style: none;
+    text-decoration: none;
+    color: #464646;
+    fon;
+}
+
