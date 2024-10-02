@@ -4,7 +4,6 @@
 }
 
 body{
-    width: 100vw;
     background-color: #EDEDED;
 }
 
@@ -19,9 +18,8 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    padding: 10px ;  
+    margin: 10px 0 ; 
     font-family: "Raleway", sans-serif;
-   ;
 }
 .cabecera__nombre{
     color: #464646
@@ -39,6 +37,34 @@ li, a{
     list-style: none;
     text-decoration: none;
     color: #464646;
-    fon;
 }
 
+.contenedor__sobre__mi{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin: 40px 0px;
+}
+.contenedor__info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    
+}
+h1, p {
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
+}
+
+.contenedor__boton{
+    display: flex;
+    gap: 35px;
+}
+
+button{
+    border:none;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px; 
+}
